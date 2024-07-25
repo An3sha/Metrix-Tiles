@@ -1,0 +1,96 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px; 
+  width: 100%;
+  padding: 32px 0 0 0; 
+}
+
+.card {
+  flex: 1 1 30%; 
+  width: 310px;
+  max-height: 184px;
+  max-width: 310px;
+  background: white;
+  box-shadow: none;
+  overflow: hidden;
+  margin-bottom: 24px;
+  border: none;
+  position: relative;
+  padding: 18px;
+}
+
+.icon {
+ opacity: 0;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+  display: none;
+}
+.card:hover .icon {
+  opacity: 1;
+}
+
+.left-icon {
+  left: -42px;
+  bottom: 150px;
+  position: fixed;
+}
+
+.right-icon {
+  right: -42px; 
+  bottom: 150px;
+  position: fixed;
+}
+
+.select {
+  width: 224px;
+  height: 32px;
+  border-radius: 8px;
+  padding: 6px 4px;
+  background-color: rgba(0, 0, 0, 0.04);
+  display: flex;
+  justify-content: space-between;
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
+
+
+.select .MuiOutlinedInput-root {
+  border: none; 
+  &:hover fieldset {
+    border: none;
+  }
+  &.Mui-focused fieldset {
+    border: none; 
+  }
+}
+
+
+.select .MuiInputBase-input {
+  padding: 0; 
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
+
+.select .MuiOutlinedInput-notchedOutline {
+  border: none; 
+}
+
+@media (max-width: 600px) {
+  .card {
+    flex: 1 1 100%;
+  }
+}
