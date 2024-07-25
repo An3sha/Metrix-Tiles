@@ -7,6 +7,9 @@ This project involves creating a grid component for KPI cards with toggleable vi
 
 ### Demo
 
+- Website - https://metrictile.netlify.app/
+- Video - https://youtu.be/r3hWHqfsw7k
+
 - <img src="./src/images/home.png" width="30%">
 - <img src="./src/images/editCard.png" width="30%">
 - <img src="./src/images/mobileView.png" width="30%">
